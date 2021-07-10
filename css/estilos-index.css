@@ -1,0 +1,178 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	
+	background: #27335b;
+	color: white;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    background-image: url(../fondo-index.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	
+}
+
+/* ? ----- Grillas ----- */
+
+header {
+
+
+
+ 
+  background-color: #f8f9fa;
+
+  z-index: 2;
+  box-shadow: 0 0 3px 3px #edebec;
+  
+  color: #192d50;
+  width: 100%;
+  position: sticky;
+  
+
+  
+}
+
+
+.header__logo {
+
+	width: 100px;
+}
+
+.navbar-nav {
+    background-color: #f8f9fa;
+
+    width: 100%;
+   
+    color: #192d50;
+    text-decoration: none;
+    justify-content: flex-end;
+    font-size: 18px; }
+ #nav {
+    color: #192d50; }
+
+  nav a {
+ 
+  color: #192d50; }
+
+
+main{
+
+
+	display: block;
+	margin: auto;
+
+
+
+}
+
+
+
+
+
+.soon {
+
+
+
+	
+	margin: 0px auto;
+	text-align: center;
+	font-size: 60px;
+	}
+
+
+
+
+
+
+
+
+
+
+/* ? ----- REDES SOCIALES ----- */
+
+.redes {
+
+	display: block;
+	margin: 0 auto;
+	text-align: center;
+
+}
+
+.redes .btn-red-social  {
+	
+	display: inline-flex;
+	min-width: 60px;
+	border-radius: 5px;
+	background: #e9913d;
+	color: #fff;
+	font-size: 20px;
+	margin: 0 auto;
+	justify-content: center;
+	justify-self: center;
+
+	
+	
+	padding: 5px;
+}
+
+
+.redes-sociales .logo {
+
+	display: block;
+	margin: auto;
+	
+	width: 30%;
+}
+
+
+.copy {
+
+	margin: 10px auto;
+	font-size: 15px;
+	font-weight: lighter;
+	display: block;
+	text-align: center;
+
+}
+
+.logo {
+
+	margin: 10px auto;
+	width: 100px;
+	font-weight: lighter;
+	display: block;
+	text-align: center;
+	justify-content: center;
+}
+
+
+
+
+@media only screen and (max-width: 1264px) {
+
+
+body {
+	
+	max-height: 667px;
+	background: #27335b;
+	color: white;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    background-image: url(../back-index.png);
+	background-repeat:repeat-y;
+	background-size:cover;
+	margin: 0 auto;
+	
+	
+
+}
+
+
+
+
+
+
+
+}

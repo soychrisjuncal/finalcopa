@@ -1,0 +1,605 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	
+	background: #27335b;
+	color: white;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    background-image: url(../img/fondoOk.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+/* ? ----- Grillas ----- */
+
+
+.contenedor {
+
+
+	
+	margin: auto;
+	width: 100%;
+	max-width: 100%;
+
+	display: flex;
+	flex-direction: row wrap;
+	
+}
+
+.contenedor2{
+
+	background-color: #27335b;
+}
+
+.titulo-cont2 {
+
+	font-size: 100px;
+}
+
+.parrafo-cont2 {
+	font-size: 60px;
+}
+
+
+
+/* ? ----- PORTADA ----- */
+.portada {
+	width: 100%;
+	background: #EFEFEF;
+	background-image: url(../img/fondoOk.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+
+	min-height: 100vh;
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+	transition: .5s ease-out all;
+}
+
+.portada.oculta {
+	transform: translateY(100%);
+}
+
+.portada .header {
+	margin-bottom: 20px;
+	text-transform: uppercase;
+	letter-spacing: 3px;
+}
+
+.portada .header .logotipo {
+	font-size: 60px;
+	box-shadow: 60px;
+	width: 100%;
+	
+	
+	text-align: center;
+	margin: 20px auto;
+
+	font-family: 'Yanone Kaffeesatz', sans-serif;
+}
+
+.portada .header .mensaje {
+	font-size: 30px;
+	font-weight: 600;
+}
+
+
+
+
+
+/* ? ----- MAIN ----- */
+main {
+	max-width: 100%;
+	
+	margin: auto;
+	width: 100%;
+	
+	font-size: 18px;
+	
+	text-align: left;
+
+
+
+
+}
+
+.video {
+	
+	width: 100%;
+	display: inline-flex;
+	margin: 0 auto;
+	padding: 0;
+}
+
+
+.audio {
+
+	display: block;
+margin: 0 auto;
+	padding: 0;
+
+	width: 100%;
+
+
+}
+
+.copy {
+
+	margin: 10px auto;
+	font-size: 15px;
+	font-weight: lighter;
+	display: block;
+	text-align: center;
+
+}
+
+.logoFin {
+
+	margin: auto;
+	width: 100px;
+	font-weight: lighter;
+	display: block;
+	text-align: center;
+	justify-content: center;
+}
+
+
+
+
+
+/* ? ----- Cuenta Regresiva ----- */
+.cuenta {
+	display: inline-flex;
+	justify-content: center;
+	margin-bottom: 50px;
+	min-width: 120px;
+}
+
+.cuenta .simply-section {
+	
+	background-image: url(../img/bordeok.png);
+	background-size: contain;
+	background-color: #fff;
+	color: black;
+
+	width: 180px;
+	
+	height: 180px;
+	margin: 0 20px;
+	border-radius: 100%;
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	box-shadow: 4px 4px 5px #999;
+}
+
+.cuenta .simply-amount {
+	display: block;
+	font-size: 50px;
+	font-weight: 700;
+}
+
+.cuenta .simply-word {
+	font-weight: 300;
+	font-size: 30px;
+}
+
+
+/* ? ---------------------------- */
+
+
+
+/* ? ----- REDES SOCIALES ----- */
+.redes-sociales .btn-red-social {
+	
+	display: inline-block;
+	min-width: 60px;
+	border-radius: 5px;
+	background: #e9913d;
+	color: #fff;
+	font-size: 30px;
+	margin: 0 auto;
+	transition: .3s ease all;
+	margin-bottom: 40px;
+	padding: 5px;
+}
+
+.redes-sociales .btn-red-social:hover {
+	box-shadow: 0px 0px 50px 10px rgba(0,0,0,.15);
+}
+
+.redes-sociales .logo {
+
+	display: block;
+	margin: auto;
+	
+	width: 50%;
+}
+
+
+
+
+@media only screen and (min-width: 200px) and (max-width: 500px) {
+
+
+
+	* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+
+
+	font-family: 'Yanone Kaffeesatz', sans-serif;
+	
+	background: #27335b;
+	color: white;
+    font-family: 'Work Sans', sans-serif;
+    background-image: url(../img/fondoOk.jpg);
+	background-repeat: no-repeat;
+	background-size:contain;
+}
+
+
+/* ? ----- Grillas ----- */
+
+
+.contenedor {
+
+
+	
+	margin: auto;
+	width: 100%;
+	max-width: 100%;
+
+	display: flex;
+	flex-direction: row wrap;
+	
+}
+
+
+.contenedor2{
+
+	background-color: #27335b;
+	font-family: 'Yanone Kaffeesatz', sans-serif;
+	text-align: center;
+}
+
+
+/* ? ----- PORTADA ----- */
+.portada {
+	width: 100%;
+	background: #EFEFEF;
+	background-image: url(../img/fondoOk.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+
+	min-height: 100%;
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+	transition: .5s ease-out all;
+}
+
+.portada.oculta {
+	transform: translateY(100%);
+}
+
+.portada .header {
+	margin-bottom: 100px;
+	text-transform: uppercase;
+	letter-spacing: 3px;
+}
+
+.portada .header .logotipo {
+	font-size: 50px;
+	font-size: 900;
+	margin-bottom: 20px;
+}
+
+.portada .header .mensaje {
+	font-size: 30px;
+	font-weight: 600;
+}
+
+
+
+
+
+/* ? ---------------------------- */
+
+
+
+
+/* ? ----- MAIN ----- */
+main {
+	max-width: 100%;
+	
+	margin: auto;
+	width: 100%;
+	
+	font-size: 18px;
+	line-height: 28px;
+	text-align: left;
+
+
+}
+
+.video {
+
+	
+	
+	display: flex;
+	margin: auto;
+	justify-content: center;
+	width: 100%;
+	align-content: flex-start;
+}
+
+
+.audio {
+
+	display: block;
+align-content: flex-start;
+
+margin: 0 auto;
+justify-content: center;
+
+width: 100%;
+
+
+
+}
+
+
+
+
+
+	.cuenta {
+	display: flex;
+	justify-content: center;
+	margin-bottom: 100px;
+	
+}
+
+.cuenta .simply-section {
+	
+	background-image: none;
+	background-color: #fff;
+	color: black;
+	max-width: 100px;
+
+	width: 60px;
+	
+	height: 60px;
+	margin: 0 10px;
+	border-radius: 10px;
+	padding: 35px;
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.cuenta .simply-amount {
+	display: block;
+	font-size: 25px;
+	font-weight: 700;
+}
+
+.cuenta .simply-word {
+	font-weight: 300;
+	font-size: 15px;
+}
+
+
+
+
+}
+
+
+
+
+
+@media only screen and (min-width: 501px) and (max-width: 998px) {
+
+
+
+	* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	
+	background: #27335b;
+	color: white;
+    font-family: 'Work Sans', sans-serif;
+    background-image: url(../img/fondoOk.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+
+/* ? ----- Grillas ----- */
+
+
+.contenedor {
+
+
+	
+	margin: auto;
+	width: 100%;
+	max-width: 100%;
+
+	display: flex;
+	flex-direction: row wrap;
+	
+}
+
+
+/* ? ----- PORTADA ----- */
+.portada {
+	width: 100%;
+	background: #EFEFEF;
+	background-image: url(../img/fondoOk.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+
+	min-height: 100%;
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+	transition: .5s ease-out all;
+}
+
+.portada.oculta {
+	transform: translateY(100%);
+}
+
+.portada .header {
+	margin-bottom: 100px;
+	text-transform: uppercase;
+	letter-spacing: 3px;
+}
+
+.portada .header .logotipo {
+	font-size: 50px;
+	font-size: 900;
+	margin-bottom: 20px;
+}
+
+.portada .header .mensaje {
+	font-size: 30px;
+	font-weight: 600;
+}
+
+
+
+
+
+/* ? ---------------------------- */
+
+
+
+
+/* ? ----- MAIN ----- */
+main {
+	max-width: 100%;
+	
+	margin: auto;
+	width: 100%;
+	
+	font-size: 18px;
+	line-height: 28px;
+	text-align: left;
+
+
+}
+
+.video {
+
+	
+	
+	display: flex;
+	margin: auto;
+	justify-content: center;
+	width: 100%;
+	align-content: flex-start;
+}
+
+
+.contenedor2{
+
+	background-color: #27335b;
+	font-family: 'Yanone Kaffeesatz', sans-serif;
+	text-align: center;
+}
+
+.contenedor2 .audio {
+
+	display: block;
+align-content: flex-start;
+
+margin: 20px auto;
+justify-content: center;
+
+width: 70%;
+
+
+
+
+}
+
+
+
+
+
+	.cuenta {
+	display: flex;
+	justify-content: center;
+	margin-bottom: 100px;
+	
+}
+
+.cuenta .simply-section {
+	
+	background-image: none;
+	background-color: #fff;
+	color: black;
+	max-width: 150px;
+
+	width: 105px;
+	
+	height: 100px;
+	margin: 0 10px;
+	border-radius: 10px;
+	padding: 35px;
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.cuenta .simply-amount {
+	display: block;
+	font-size: 25px;
+	font-weight: 700;
+}
+
+.cuenta .simply-word {
+	font-weight: 300;
+	font-size: 15px;
+}
+
+
+
+
+}
